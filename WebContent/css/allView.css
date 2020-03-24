@@ -1,0 +1,31 @@
+@charset "UTF-8";
+#content_form{
+	width: 1050px;
+	height: 350px;
+	margin: 50px auto;
+	border: 1px solid lightgray;
+	padding: 20px;
+}
+#content_form table {
+	width:1000px;
+	margin: 50px auto 20px auto;
+}
+#content_form td, #content_form th {
+	width: 300px;
+	text-align: center;
+	padding: 20px;
+	background-color: #FFE015;
+	border-radius: 15px;
+	font-size: 1.2em;
+}
+#content_form .paging {
+	text-align: center;
+}
+#content_form caption {
+	font-weight: bold;
+	font-size: 1.7em;
+	padding-bottom: 70px;
+}
+b{
+	color: blue;
+}

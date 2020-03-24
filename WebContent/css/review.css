@@ -1,0 +1,40 @@
+@charset "UTF-8";
+#content_form{
+	width: 1050px;
+	margin: 0 auto;
+}
+#content_form table {
+	width:1000px;
+	margin: 50px auto 0 auto;
+}
+#content_form header {
+	text-align: center;
+}
+#content_form td, #content_form th {
+	border-bottom: 1px solid gray;
+	text-align: center;
+	padding: 10px;
+}
+#content_form header {
+	text-align: center;
+}
+#content_form th {
+	background-color:#FFE015;
+	color:black;
+}
+#content_form .paging {
+	text-align: center;
+}
+#bottom {
+	padding: 10px;
+	float: right;
+	margin-right: 25px;
+	font-weight: bold;
+	border-bottom:1px solid black;
+}
+b{
+	color: blue;
+}
+#content_form .left{
+	text-align: left !important;
+}

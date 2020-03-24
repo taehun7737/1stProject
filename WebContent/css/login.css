@@ -1,0 +1,39 @@
+@charset "UTF-8";
+#content_form table {
+	border: 2px solid lightgray;
+	width:40%;
+	margin: 140px auto 140px auto;
+	padding: 30px 100px 50px 100px;
+}
+#content_form td, #content_form th {
+	width: 150px;
+	text-align: center;
+}
+#content_form #caption{
+	width: 300px;
+    padding: 0 0 0 100px;
+}
+#content_form a {
+	text-decoration: none;
+	color:black;
+}
+#content_form input:not(.btn), #content_form textarea {
+	width: 500px;
+	padding: 10px;
+}
+#content_form input[type='submit']{
+	width: 120px;
+    height: 100px;
+	cursor: pointer;
+	border: 0;
+	margin: 5px;
+	background-color: #ffda59;
+	color: white;
+	font-size:1.3em;
+}
+#join{
+	width:50%;
+	height:50px;
+	padding: 0 0 0 360px;
+	font-weight: bold;
+}

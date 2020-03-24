@@ -1,0 +1,259 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+/* * * * header .gnb * * * */
+header .gnb{
+	width: 100%;
+	border-bottom: 1px solid lightgray;
+}
+header .gnb ul {
+	overflow: hidden;
+	width:1700px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+}
+header .gnb ul li {
+    float: right;
+    margin-right: 30px;
+    font-weight: bold;
+}
+header .gnb a { 
+	color : black;
+	display: block;
+	padding-left:15px;
+	padding-right:15px;
+}
+/* * * * header .lnb * * * */
+header .lnb {
+    width: 100%;
+    min-width: 1500px;
+    height: 50px;
+    background-color: orange;
+    border-bottom: 2px solid black;
+}
+
+header .lnb ul {
+    width: 1000px;
+    min-width: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 50px;
+    line-height: 30px;
+}
+
+header .lnb ul li {
+    width: 23%;
+    float: left;
+    margin: 10px 70px;
+}
+
+header .lnb a {
+    color: white;
+    display: block;
+    text-align:center;
+}
+
+/* * * * .logo * * * */
+.logo {
+    float: left;
+}
+
+/* * * * header hr * * * */
+header hr {
+    width: 100%;
+    min-width: 1500px;
+    border: 1px solid black;
+}
+/* * * * #slider_main * * * */
+.slider_main {
+    width: 1000px;
+    text-align: center;
+    margin: 100px auto 0 auto;
+}
+/* * * * #zoom * * * */
+#test {
+    width: 100%;
+    height: 300px;
+    margin-top: 200px;
+}
+
+#test .zoom_text {
+    width: 2000px;
+    text-align: center;
+    height: 100px;
+    margin-top: 10px;
+}
+
+#test .zoom_text a:nth-child(1) {
+    display: block;
+    position: absolute;
+    width: 300px;
+    left: 22%;
+}
+
+#test .zoom_text a:nth-child(2) {
+    display: block;
+    position: absolute;
+    width: 300px;
+    left: 42%;
+}
+
+#test .zoom_text a:nth-child(3) {
+    display: block;
+    position: absolute;
+    width: 300px;
+    left: 62%;
+}
+
+.zoom {
+    width: 2000px;
+    margin: 0 auto;
+    height: 150px;
+}
+
+.zoom .menu1 {
+    display: block;
+    position: absolute;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border: 1px solid lightgray;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.zoom .menu1 > img {
+    transform: translate(0%, -50%);
+    width: 300px;
+    transition: transform 1.2s;
+    margin-top: 150px;
+}
+
+.zoom .menu1:hover > img {
+    transform: translate(0%, -50%) scale(1.2);
+}
+
+.zoom .menu2 {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid lightgray;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.zoom .menu2 > img {
+    transform: translate(0%, -50%);
+    width: 300px;
+    transition: transform 1.2s;
+    margin-top: 150px;
+}
+
+.zoom .menu2:hover > img {
+    transform: translate(0%, -50%) scale(1.2);
+}
+
+.zoom .menu3 {
+    display: block;
+    position: absolute;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    border: 1px solid lightgray;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.zoom .menu3 > img {
+    transform: translate(0%, -50%);
+    width: 300px;
+    transition: transform 1.2s;
+    margin-top: 150px;
+}
+
+.zoom .menu3:hover > img {
+    transform: translate(0%, -50%) scale(1.2);
+}
+/* * * * #center * * * */
+#center {
+    width: 100%;
+    min-width: 1500px;
+}
+
+#center .menu {
+    text-align: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+/* * * * side_banner * * * */
+#side_banner {
+    border: 1px solid lightgray;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    position: absolute;
+    top: 900px;
+    left: 70px;
+    border-radius: 15px;
+    z-index: 99999;
+}
+#side_banner h2 {
+	color: red;
+}
+#side_banner h4 {
+	text-align: left;
+	margin: 7px 0 0 7px;
+	font-size: 0.9em;
+}
+#side_banner h1 {
+	text-align: center;
+    width: 200px;
+    margin: 5px auto;
+    border-bottom: 1px solid gray;
+}
+
+#side_banner p {
+    width: 180px;
+    margin-top: 20px;
+}
+
+#side_banner p:nth-child(1) {
+    margin-top: 30px;
+}
+/* * * * footer * * * */
+#footer {
+    width: 1300px;
+    height: 200px;
+    line-height: 150px;
+    border: 1px solid lightgray;
+    margin: 5px auto;
+}
+
+#footer ul {
+    overflow: hidden;
+    margin: 5px 100px;
+}
+
+#footer ul li {
+    list-style: none;
+    float: left;
+    margin-top: 20px;
+}
